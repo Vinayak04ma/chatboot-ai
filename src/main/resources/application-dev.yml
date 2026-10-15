@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  flyway:
+    clean-disabled: false
+
+logging:
+  level:
+    com.daoninhthai.aichatbot: DEBUG
+    org.springframework.ai: DEBUG
+    org.hibernate.SQL: DEBUG
